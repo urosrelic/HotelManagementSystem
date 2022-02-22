@@ -11,11 +11,9 @@
 ---
 
 ## Description
-
-#### Technologies
-
 This is a simple java database crud application with a GUI. <br /> It consists of checking in to the hotel aswell as checking out.\
 User can also print the bill of the his check-outs which are not paid. <br /> Bill is opened as a .pdf file and saved locally to the machine
+#### Technologies
 - Java
 - JavaFX
 - XAMPP for database
