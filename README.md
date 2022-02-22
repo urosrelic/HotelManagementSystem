@@ -14,7 +14,7 @@
 
 #### Technologies
 
-This is a simple java database crud application with a GUI. 
+This is a simple java database crud application with a GUI.\ 
 It consists of checking in to the hotel aswell as checking out.\
 User can also print the bill of the his check-outs which are not paid.\
 Bill is opened as a .pdf file and saved locally to the machine
