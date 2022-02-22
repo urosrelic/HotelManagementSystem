@@ -34,6 +34,7 @@ opened as a .pdf file and saved locally to the machine
 - Open the query console and copy the script file located inside src/com/hotelmanagementsystem/main/java/sql/script.sql
 - Run the query
 
+[Back To The Top](#read-me-template)
 
 
 
