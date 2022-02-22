@@ -1,0 +1,5 @@
+.vbox {
+    -fx-background-color: rgba(203, 203, 203, 0.8);
+    -fx-background-radius: 10;
+    -fx-padding: 20;
+}

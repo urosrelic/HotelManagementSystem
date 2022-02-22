@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="forgotPassPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="677.0" prefWidth="1010.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hotelmanagementsystem.main.java.controller.ForgotPasswordController">
+   <children>
+      <Pane layoutX="473.0" layoutY="143.0" prefHeight="368.0" prefWidth="523.0">
+         <children>
+            <Button fx:id="btnLogin" layoutX="180.0" layoutY="233.0" mnemonicParsing="false" onAction="#onButtonPress" prefHeight="33.0" prefWidth="71.0" stylesheets="@../css/Button.css" text="Login" />
+            <Button fx:id="btnUpdate" layoutX="404.0" layoutY="233.0" mnemonicParsing="false" onAction="#onButtonPress" prefHeight="33.0" prefWidth="71.0" stylesheets="@../css/Button.css" text="Update" />
+            <Button fx:id="btnSignup" layoutX="292.0" layoutY="233.0" mnemonicParsing="false" onAction="#onButtonPress" prefHeight="33.0" prefWidth="71.0" stylesheets="@../css/Button.css" text="Signup" />
+            <TextField fx:id="textFieldEmail" layoutX="180.0" layoutY="25.0" prefHeight="25.0" prefWidth="295.0" />
+            <ComboBox fx:id="questionComboBox" layoutX="180.0" layoutY="119.0" prefHeight="25.0" prefWidth="295.0" />
+            <TextField fx:id="textFieldAnswer" layoutX="180.0" layoutY="172.0" prefHeight="25.0" prefWidth="295.0" />
+            <PasswordField fx:id="textFieldNewPass" layoutX="180.0" layoutY="71.0" prefHeight="25.0" prefWidth="295.0" />
+            <Label layoutX="10.0" layoutY="25.0" text="Email">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="11.0" layoutY="70.0" text="New Password">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="118.0" text="Security question">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="11.0" layoutY="171.0" text="Answer">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label layoutX="83.0" layoutY="36.0" text="FORGOT PASSWORD?">
+         <font>
+            <Font name="System Bold" size="39.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="476.0" fitWidth="456.0" layoutX="14.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/forgot-pass.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
