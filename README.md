@@ -1,7 +1,5 @@
 # Read Me Template
 
-![Project Image](readme-images/img.png)
-
 > Hotel management system project in JavaFX and Java.
 
 ---
