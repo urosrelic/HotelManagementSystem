@@ -1,4 +1,4 @@
-# Read Me Template
+# Hotel management system
 
 > Hotel management system project in JavaFX and Java.
 
